@@ -12,3 +12,9 @@ print(f"Chai Ingredients: {chai_ingredients}")
 
 chai_ingredients.insert(2, "black-tea") #means to add black-tea at index 2 in the list of chai_ingredients
 print(f"Chai Ingredients after inserting black-tea: {chai_ingredients}")
+
+base_liquid = ["water", "milk"]
+extra_flavour = ["ginger"]
+
+full_liquid_mix = base_liquid + extra_flavour
+print(f"Full liquid mix: {full_liquid_mix}")
